@@ -25,12 +25,12 @@ docker buildx build --platform linux/arm64,linux/amd64 --push -t {REPO} .
 I still tunning the double nat process, and some times I have to reconnect the vpn if it loses connection or the pod is regenerated.
 
 
-## To setup the WireGuard config 
+## To setup the WireGuard config 
 
 You have to edit the `deployment.yaml` file and modify the ConfigFile I left a mockup of config file to get a sense on how it looks like, there is plenty online websites on how to create the keys.
 
 
-## Thanks and references
+## Thanks and references
 
 https://www.wireguard.com/
 
